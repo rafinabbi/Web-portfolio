@@ -84,8 +84,13 @@ p{
 footer p{
     text-align: center;
 }
-#full-stack{
-    border-left: 7x solid;
+#Word-press{
+    border-left: 9px solid;
     border-image: linear-gradient(180deg, blue ,cyan) ;
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 9px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato) ;
     border-image-slice: 1;
 }
