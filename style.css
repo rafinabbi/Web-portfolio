@@ -24,7 +24,7 @@ body{
 }
 .top-banner{
     background-image: url(images/top-banner.PNG);
-    /* display:inline-block; */
+    display:inline-block;
     background-repeat: no-repeat;
 }
 
@@ -46,7 +46,7 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right ;
-   
+    display:inline-block;
 }
 
 .second-banner .dream-text  {
@@ -66,6 +66,7 @@ p{
 }
 .single-experience {
     box-shadow: 10px 10px 40px gray;
+    
     height:10%;
 }
 .single-experience p {
@@ -75,6 +76,16 @@ p{
 .Experience-banner{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    height:100%;
+    background-position: 0px 170px;
+    height:400vh;
+    
     /* background-position: center; */
+}
+footer p{
+    text-align: center;
+}
+#full-stack{
+    border-left: 7x solid;
+    border-image: linear-gradient(180deg, blue ,cyan) ;
+    border-image-slice: 1;
 }
